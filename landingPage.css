@@ -1,0 +1,328 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background: 
+        linear-gradient(rgba(194, 217, 238, 0.6), rgba(194, 217, 238, 0.6)),
+        url("./images/imgi_32_bg-hero.png");
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid white;
+}
+nav{
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_1logo img{
+    width: 54px;
+}
+.nav_1logo span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(36, 3, 15);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav_1logo{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.home2{
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+.home{
+    list-style-type: none;
+    padding: 10px 15px 10px 15px;
+    background-color: #7287e7;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.home2:hover{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: #7287E7;
+    font-weight: 600;
+    background-color: #E7E7E8;
+}
+.nav_2lists a{
+    text-decoration: none;
+}
+.nav_2lists{
+    display: flex;
+    gap: .5em;
+}
+.nav_Resume a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.2em;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    background-color: #7287e7;
+    border-radius: 5px;
+}
+
+nav .fa-bars{
+    display: none;
+}
+
+@media(max-width:720px){
+    .nav_2lists{
+        display: none;
+    }
+    .nav_Resume{
+        display: none;
+    }
+    nav .fa-bars{
+        display: block;
+        color: aliceblue;
+    }
+    nav{
+        justify-content: space-around;
+    }
+}
+
+
+.hero_sect{
+    color: black;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+.hero_image img{
+    padding-top: 12px;
+    width: 460px;
+    height: 560px;
+}
+
+.hero_text h1{
+    font-weight: 600;
+    font-size: 4rem;
+    padding-bottom: 30px;
+}
+.hero_text p{
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top: 20px;
+    line-height: 1.4em;
+}
+.hero_text div{
+    border: 2px solid white;
+    background-color: white;
+    width: 50%;
+    padding: 1px;
+}
+
+@media(max-width:790px){
+    .hero_sect{
+    
+    }
+}
+
+.section_down{
+    text-align: center;  
+    padding-top: 120px;
+    padding-bottom: 30px;
+    background-color: #18392F;
+}
+.section_down div{
+    margin: auto;
+    margin-bottom: 4px;
+    border-top: 2px solid white;
+    background-color: white;
+    width: 50%;
+}
+.section_down p{
+    color: white;
+    line-height: 1.6em;
+    font-size: 1.1em;
+}
+.infoimag img{
+    width: 400px;
+    mask-image: linear-gradient(to top, transparent, black 90%);
+}
+.my_info{
+    padding-top: 60px;
+    background-color: #1F473B;
+}
+.my_info h1{
+    color: azure;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 3em;
+}
+.myinfo{
+    display: flex;
+    gap: 10em;
+    padding: 5px;
+}
+.about-me{
+    color: white;
+}
+.about-me h2{
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+.about-me p{
+    line-height: 1.5em;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+.years{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .1;
+}
+.years span{
+    font-size: 3em;
+}
+.years p{
+    font-size: 8rem;
+}
+.fa-plus{
+    font-size: 3rem;
+}
+
+.experience{
+    background-color: #1F473B;
+    color: azure;
+    font-family: "Syne", sans-serif;
+}
+.experienceDiv{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+.exp2 div{ 
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
+.exp2 div h3{ 
+    padding-bottom: 10px;
+}
+.eachExp h1{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.experience h2{
+    margin-left: 136px;
+    border-bottom: 2px solid white;
+    width: 300px;
+}
+
+.skills{
+    background-color: #18392F;
+    color: azure;
+    padding: 50px;
+}
+.skills h2{
+    margin-left: 136px;
+    border-bottom: 2px solid white;
+    width: 300px;
+}
+.imgSkills{
+    width: 50px;
+    height: 50px;
+}
+.skills div{
+    padding-left: 140px;
+    padding-top: 30px;
+    display: flex;
+    gap: 3em;
+}
+.imgSAP{
+    width: 100px;
+    height: 60px;
+}
+.imgSkl:hover{
+    transform: translateY(10px);
+    transition: all 1s ease-in-out;
+}
+
+@media(max-width: 990px){
+    .nav_2lists a{
+        font-size: .9em;
+    }
+    .nav_Resume{
+        font-size: .8em;
+    }
+    .infoimag{
+        width: 280px;
+    }
+    .myinfo{
+        gap: .9em
+    }
+    .about-me{
+        padding-left: 120px;
+    }
+    .about-me p{
+        font-size: .9em;
+    }
+    .years{
+        font-size: 4em;
+    }
+    .eachExp h1{
+        padding-bottom: 80px;
+    }
+}
+@media(max-width: 920px){
+    .nav_1logo img{
+        width:50px
+    }
+    .nav_1logo span{
+        font-size: 1.3em;
+    }
+    .nav_2lists a{
+        font-size: .8em;
+    }
+    .nav_2lists{
+        gap: 2rem
+    }
+    .hero_text h1{
+        font-size: 3em;
+    }
+    .hero_text p{
+        font-size: 1.6em;
+    }
+    .hero_image img{
+        width: 360px;
+        height: 460px;
+    }
+    .hero_sect{
+        justify-content: space-around;
+    }
+    .section_down p{
+        font-size: .9em;
+    }
+    .infoimag img{
+        width:300px
+    }
+    .myinfo{
+        padding: 10px;
+    }
+    .about-me h2{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-decoration: underline;
+    }
+.about-me p{
+    line-height: 1.3em;
+    font-size: 1em;
+    padding-bottom: 10px;
+    }
+}
