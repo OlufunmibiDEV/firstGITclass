@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: "Lora", serif;;
 }
 header{
     background: 
@@ -9,7 +10,6 @@ header{
         url("./images/imgi_32_bg-hero.png");
     background-size: cover;
     background-position: center;
-    border-bottom: 1px solid white;
 }
 nav{
     padding: 10px;
@@ -77,32 +77,6 @@ nav .fa-bars{
     display: none;
 }
 
-@media(max-width:875px){
-    .nav_2lists{
-    gap: .1em;
-    }
-    .nav_1logo img{
-    width: 4px;
-}
-}
-
-@media(max-width:720px){
-    .nav_2lists{
-        display: none;
-    }
-    .nav_Resume{
-        display: none;
-    }
-    nav .fa-bars{
-        display: block;
-        color: aliceblue;
-    }
-    nav{
-        justify-content: space-around;
-    }
-}
-
-
 .hero_sect{
     color: black;
     height: 500px;
@@ -162,12 +136,13 @@ nav .fa-bars{
     font-size: 1.1em;
 }
 .infoimag img{
-    width: 400px;
-    mask-image: linear-gradient(to top, transparent, black 90%);
+    width: 450px;
+    mask-image: linear-gradient(to top, transparent, black 30%);
 }
 .my_info{
     padding-top: 60px;
     background-color: #C2C8FD;
+    padding-left: 10px;
 }
 .my_info h1{
     color: black;
@@ -177,11 +152,11 @@ nav .fa-bars{
 }
 .myinfo{
     display: flex;
-    gap: 10em;
+    gap: 5em;
     padding: 5px;
 }
 .about-me{
-    color: #4C399A;
+    color: #3F3C4D;;
 }
 .about-me h2{
     padding-bottom: 50px;
@@ -191,8 +166,9 @@ nav .fa-bars{
 .about-me p{
     line-height: 1.5em;
     font-size: 1.2em;
+    max-width: 80ch;
     padding-bottom: 10px;
-    color: black;
+    color: #3F3C4D;
 }
 .years{
     display: flex;
@@ -211,7 +187,8 @@ nav .fa-bars{
 }
 
 .experience{
-    background-color: #1F473B;
+    padding-top: 40px;
+    background-color: #121213;
     color: azure;
     font-family: "Syne", sans-serif;
 }
@@ -238,13 +215,13 @@ nav .fa-bars{
 }
 
 .skills{
-    background-color: #18392F;
-    color: azure;
+    background-color: #F0F1F3;
+    color: #3F3C4D;
     padding: 50px;
 }
 .skills h2{
     margin-left: 136px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #3F3C4D;
     width: 300px;
 }
 .imgSkills{
@@ -266,6 +243,43 @@ nav .fa-bars{
     transition: all 1s ease-in-out;
 }
 
+.service-sect{
+    background-color: #F0F1F3;
+    padding-bottom: 40px;
+}
+.service-sect h1{
+    font-size: 3em;
+    text-align: center;
+}
+.research{
+    width: 1100px;
+    display: flex;
+    gap: 2em;
+    padding-left: 200px;
+}
+.research div i{
+    padding: 20px;
+    color: #a2aaf8;
+    font-size: 2em;
+}
+.research div p{
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.finalR{
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+footer{
+    padding: 12px 30px 12px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media(max-width: 990px){
     .nav_2lists a{
         font-size: .9em;
@@ -277,10 +291,10 @@ nav .fa-bars{
         width: 280px;
     }
     .myinfo{
-        gap: .9em
+        gap: .5em
     }
     .about-me{
-        padding-left: 120px;
+        padding-left: 70px;
     }
     .about-me p{
         font-size: .9em;
@@ -336,5 +350,29 @@ nav .fa-bars{
     line-height: 1.3em;
     font-size: 1em;
     padding-bottom: 10px;
+    }
+}
+@media(max-width:875px){
+    .nav_2lists{
+    gap: .1em;
+    }
+    .nav_1logo img{
+    width: 4px;
+}
+}
+
+@media(max-width:720px){
+    .nav_2lists{
+        display: none;
+    }
+    .nav_Resume{
+        display: none;
+    }
+    nav .fa-bars{
+        display: block;
+        color: aliceblue;
+    }
+    nav{
+        justify-content: space-around;
     }
 }
