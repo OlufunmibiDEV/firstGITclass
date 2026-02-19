@@ -601,3 +601,121 @@ footer {
         font-size: .9em;
     }
 }
+
+@media(max-width:630px){
+    .hero_image img {
+    width: 300px;
+    height: 360px;
+    }
+
+.hero_text h1 {
+    font-size: 2.4rem;
+}
+
+.hero_text span {
+    font-size: 1.1rem;
+}
+
+.hero_text p {
+    font-size: 1.4rem;
+    line-height: 1.2em;
+}
+.about-me p{
+    font-size: .9em;
+}
+.years{
+    font-size: 2.4em;
+}
+.research span{
+    font-size: .9em;
+}
+.exp2 div {
+        width: 340px;
+    }
+}
+
+@media(max-width:600px){
+    .infoimag img{
+        width: 220px ;
+    }
+    .skills div{
+    padding-left: 40px;
+    gap: 2em; 
+    }
+    .skills h2{
+        margin-left: 40px;
+    }
+    .research{
+        padding-left: 10px;
+        width: 500px;
+    }
+}
+
+@media(max-width:550px){
+    .hero_text{
+        width: 40%;
+    }
+    .hero_text p{
+        font-size: .9em;
+    }
+    .section_down p{
+        font-size: .8em;
+    }
+    .my_info h1{
+        font-size: 1.6em;
+    }
+    .about-me h2{
+        font-size: 1.2em;
+    }
+    .about-me p{
+        font-size: .8em;
+    }
+    .about-me{
+        padding-left: 10px;
+    }
+    .reserve span{
+        font-size: .8em;
+    }
+    .research div{
+        font-size: 85%;
+    }
+    .service-sect h1{
+        font-size: 1.6em;
+    }
+  
+    .hero_text p{
+        display: none;
+    }
+    .hero_sect{
+        gap: 20px;
+        padding-bottom: 10px;
+    }
+    .experience{
+        font-size: 80%;
+    }
+    .eachExp h1 {
+    padding-top: 10px;
+    padding-bottom: 90px;
+}   
+    .eachExp2{
+    padding-bottom: 20px;
+    }
+    .finalR{
+        padding-left: 10px;
+    }
+}
+
+@media(max-width:490px){
+    .hero_sect{
+        display: block;
+    }
+    .hero_image img{
+         padding-top: 2px;
+         padding-bottom: 100px;
+         width: 240px;
+    }
+    .hero_text span{
+        font-size: .9em;
+    }
+    
+}
