@@ -174,8 +174,7 @@ nav .fa-bars {
 
 .myinfo {
     display: flex;
-    gap: 5em;
-    padding: 5px;
+    justify-content: space-around;
 }
 
 .about-me {
@@ -788,7 +787,9 @@ footer {
     .section_down p {
         font-size: .8em;
     }
-
+    .section_down {
+        padding-left: 10px;
+    }
     .my_info h1 {
         font-size: 1.6em;
     }
@@ -884,6 +885,9 @@ footer {
         padding-right: 20px;
         max-width: 62ch;
     }
+    .section_down{
+        padding-top: 110px;
+    }
 }
 
 @media(max-width: 492px) {
@@ -928,23 +932,13 @@ footer {
     }
 }
 
-@media(max-width:440px) {
-    .infoimag img {
-        width: 150px;
-    }
-}
-
 @media(max-width:470px) {
     .infoimag img {
         width: 180px;
     }
 
-    .myinfo {
-        justify-content: space-around;
-    }
-
     .about-me p {
-        max-width: 40ch;
+        max-width: 50ch;
         font-size: .7em;
         padding-bottom: 10px;
     }
@@ -970,8 +964,15 @@ footer {
     .eachExp h1 {
         padding-bottom: 166px;
     }
+    .infoimag img {
+        width: 150px;
+    }
 }
-
+@media(max-width:410px) {
+.eachExp h1 {
+        padding-bottom: 180px;
+    }
+}
 
 @media(max-width:399px) {
     .section_down {
@@ -990,7 +991,7 @@ footer {
 
     .myinfo {
         display: block;
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
     .about-me p {
@@ -998,7 +999,7 @@ footer {
     }
 
     .eachExp h1 {
-        padding-bottom: 140px;
+        padding-bottom: 150px;
     }
 
     .experience h2 {
@@ -1052,7 +1053,11 @@ footer {
         width: 24px;
     }
 }
-
+@media(max-width:355px) {
+    .eachExp h1 {
+        padding-bottom: 160px;
+    }
+}
 @media(max-width:345px) {
     .reserve span {
         font-size: .7em;
