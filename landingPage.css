@@ -136,6 +136,7 @@ nav .fa-bars {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 30px;
+    margin: auto;
 }
 
 .section_down div {
@@ -150,6 +151,7 @@ nav .fa-bars {
     color: #3F3C4D;
     line-height: 1.6em;
     font-size: 1.1em;
+    margin: auto;
 }
 
 .infoimag img {
@@ -355,6 +357,11 @@ footer {
     .eachExp h1 {
         padding-bottom: 80px;
     }
+
+    footer {
+        padding-left: 40px;
+        padding-right: 60px;
+    }
 }
 
 @media(max-width: 920px) {
@@ -431,7 +438,6 @@ footer {
 
     .section_down p {
         width: 90%;
-        padding-left: 50px;
     }
 
     .about-me p {
@@ -461,13 +467,53 @@ footer {
     }
 }
 
+@media(max-width: 884px) {
+    .years i {
+        font-size: .3em;
+    }
+
+    .years span {
+        font-size: .6em;
+    }
+
+    .years p {
+        font-size: .7em;
+    }
+
+    .experience h2 {
+        margin-left: 60px;
+    }
+
+    .eachExp {
+        padding-left: 60px;
+    }
+
+    .eachExp h1 {
+        padding-bottom: 90px;
+    }
+
+    .exp2 div span {
+        max-width: 10ch;
+    }
+
+    .finalR {
+        padding-left: 30px;
+    }
+}
+
 @media(max-width: 850px) {
-    .section_down p {
-        padding-left: 40px;
+    .nav_Resume a {
+        font-weight: 500;
+        font-size: 1em;
+        padding: 5px 8px 5px 8px;
     }
 
     .about-me p {
         max-width: 52ch;
+    }
+
+    .about-me {
+        padding-left: 10px;
     }
 
     .experienceDiv {
@@ -491,42 +537,74 @@ footer {
     .years i {
         font-size: .3em;
     }
+
+    .about-me p {
+        max-width: 48ch;
+    }
+
     .years span {
         font-size: .6em;
     }
-    .years p{
+
+    .years p {
         font-size: .7em;
     }
-    .myinfo{
+
+    .myinfo {
         gap: .2em;
         justify-content: space-around;
     }
+
     .research {
         padding-left: 26px;
-        width: 600px ;
+        width: 600px;
     }
-    .skills h2{
-    margin-left: 80px ;
+
+    .skills h2 {
+        margin-left: 80px;
     }
+
     .skills div {
-    padding-left: 80px;
+        padding-left: 80px;
     }
+
     .experienceDiv {
-        width:90%
+        width: 90%
+    }
+}
+
+@media(max-width: 770px) {
+    .nav_Resume {
+        display: none;
     }
 }
 
 @media(max-width:750px) {
-    .years p{
+    .years p {
         font-size: .5em;
     }
-    .years span{
+
+    .eachExp h1 {
+        padding-left: 28px;
+    }
+
+    .years span {
         font-size: .5em;
     }
-    .years i{
+
+    .about-me p {
+        max-width: 46ch;
+    }
+
+    .infoimag img {
+        width: 280px;
+    }
+
+    .years i {
         font-size: .2em;
     }
-    .eachExp{
+
+    .eachExp {
         padding-left: 20px;
     }
 }
@@ -548,174 +626,445 @@ footer {
     nav {
         justify-content: space-around;
     }
+
     .skills {
-    padding: 6px;
-}
-.imgSkills {
-    width: 40px;
-    height: 40px;
-}
-.imgSAP{
-    width: 76px;
-    height: 42px;
-}
+        padding: 6px;
+    }
+
+    .imgSkills {
+        width: 40px;
+        height: 40px;
+    }
+
+    .imgSAP {
+        width: 76px;
+        height: 42px;
+    }
 }
 
 @media(max-width:690px) {
-    .infoimag img{
+    .infoimag img {
         width: 260px;
     }
+
     .about-me {
         padding-left: 40px;
     }
-    .service-sect h1{
+
+    .service-sect h1 {
         font-size: 2em;
     }
+
     .finalR {
-    padding-left: 30px;
-    padding-right: 60px;
-}
-.hero_image img {
-    width: 360px;
-    height: 400px;
-}
-.hero_sect {
-    height: 340px;
-}
+        padding-left: 30px;
+        padding-right: 60px;
+    }
+
+    .hero_image img {
+        width: 360px;
+        height: 400px;
+    }
+
+    .hero_sect {
+        height: 340px;
+    }
 }
 
-@media(max-width:660px){
-    .hero_text h1{
+@media(max-width:660px) {
+    .hero_text h1 {
         font-size: 2.6em;
     }
-    .hero_text p{
+
+    .hero_text p {
         font-size: 1.4em;
     }
-    .eachExp{
+
+    .eachExp {
         padding-left: 60px;
     }
-    .eachExp h1{
+
+    .eachExp h1 {
         font-size: 1.8em;
     }
-    .exp2 span{
+
+    .exp2 span {
         font-size: .9em;
     }
 }
 
-@media(max-width:630px){
+@media(max-width:630px) {
     .hero_image img {
-    width: 300px;
-    height: 360px;
+        width: 300px;
+        height: 360px;
     }
 
-.hero_text h1 {
-    font-size: 2.4rem;
-}
+    .hero_text h1 {
+        font-size: 2.4rem;
+    }
 
-.hero_text span {
-    font-size: 1.1rem;
-}
+    .hero_text span {
+        font-size: 1.1rem;
+    }
 
-.hero_text p {
-    font-size: 1.4rem;
-    line-height: 1.2em;
-}
-.about-me p{
-    font-size: .9em;
-}
-.years{
-    font-size: 2.4em;
-}
-.research span{
-    font-size: .9em;
-}
-.exp2 div {
+    .hero_text p {
+        font-size: 1.4rem;
+        line-height: 1.2em;
+    }
+
+    .about-me p {
+        font-size: .9em;
+    }
+
+    .years {
+        font-size: 2.4em;
+    }
+
+    .research span {
+        font-size: .9em;
+    }
+
+    .exp2 div {
         width: 340px;
     }
+
+    .section_down p {
+        max-width: 72ch;
+    }
+
+    .finalR {
+        padding-left: 28px;
+    }
+
+    footer {
+        padding-left: 60px;
+    }
 }
 
-@media(max-width:600px){
-    .infoimag img{
-        width: 220px ;
+@media(max-width:600px) {
+    .infoimag img {
+        width: 220px;
     }
-    .skills div{
-    padding-left: 40px;
-    gap: 2em; 
+
+    .skills div {
+        padding-left: 40px;
+        gap: 2em;
     }
-    .skills h2{
+
+    .skills h2 {
         margin-left: 40px;
     }
-    .research{
+
+    .research {
         padding-left: 10px;
         width: 500px;
     }
+
+    .section_down {
+        padding-left: 20px;
+    }
+
+    .experience {
+        font-size: 90%;
+    }
+
+    .exp2 div {
+        max-width: 40ch;
+    }
+
+    .finalR {
+        padding-left: 50px;
+    }
 }
 
-@media(max-width:550px){
-    .hero_text{
+@media(max-width:550px) {
+    .hero_text {
         width: 40%;
     }
-    .hero_text p{
+
+    .hero_text p {
         font-size: .9em;
     }
-    .section_down p{
+
+    .section_down p {
         font-size: .8em;
     }
-    .my_info h1{
+
+    .my_info h1 {
         font-size: 1.6em;
     }
-    .about-me h2{
+
+    .about-me h2 {
         font-size: 1.2em;
     }
-    .about-me p{
+
+    .about-me p {
         font-size: .8em;
     }
-    .about-me{
+
+    .about-me {
         padding-left: 10px;
     }
-    .reserve span{
+
+    .reserve span {
         font-size: .8em;
     }
-    .research div{
+
+    .research div {
         font-size: 85%;
     }
-    .service-sect h1{
+
+    .service-sect h1 {
         font-size: 1.6em;
     }
-  
-    .hero_text p{
+
+    .hero_text p {
         display: none;
     }
-    .hero_sect{
+
+    .hero_sect {
         gap: 20px;
         padding-bottom: 10px;
     }
-    .experience{
+
+    .experience {
         font-size: 80%;
     }
+
     .eachExp h1 {
-    padding-top: 10px;
-    padding-bottom: 90px;
-}   
-    .eachExp2{
-    padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 90px;
     }
-    .finalR{
+
+    .eachExp2 {
+        padding-bottom: 20px;
+    }
+
+    .finalR {
+        padding-left: 50px;
+    }
+}
+
+@media(max-width:530px) {
+    .finalR {
+        padding-left: 20px;
+    }
+
+    .research {
+        max-width: 60ch;
+    }
+}
+
+@media(max-width:490px) {
+    .hero_sect {
+        display: block;
+    }
+
+    .hero_image img {
+        padding-top: 2px;
+        padding-bottom: 100px;
+        width: 240px;
+    }
+
+    .hero_text span {
+        font-size: .9em;
+    }
+
+    .research {
+        display: block;
+        max-width: 70%;
+        padding-left: 30px;
+        margin: auto;
+    }
+
+    .skills div {
+        gap: 1em;
+    }
+
+    .section_down p {
+        padding-right: 20px;
+        max-width: 62ch;
+    }
+}
+
+@media(max-width: 492px) {
+    .my_info h1 {
+        padding-bottom: 10px;
+    }
+
+    .my_info {
+        padding-top: 40px;
+    }
+
+    .about-me h2 {
+        padding-bottom: 5px;
+    }
+
+
+    .experience {
+        padding-left: 2px;
+    }
+
+    .exp2 div {
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    .eachExp h1 {
+        padding-bottom: 140px;
+    }
+
+    .eachExp .exp {
+        padding-bottom: 110px;
+    }
+}
+
+@media(max-width:480px) {
+    .eachExp h1 {
+        padding-bottom: 138px;
+    }
+
+    .eachExp .exp {
+        padding-bottom: 114px;
+    }
+}
+
+@media(max-width:440px) {
+    .infoimag img {
+        width: 150px;
+    }
+}
+
+@media(max-width:470px) {
+    .infoimag img {
+        width: 180px;
+    }
+
+    .myinfo {
+        justify-content: space-around;
+    }
+
+    .about-me p {
+        max-width: 40ch;
+        font-size: .7em;
+        padding-bottom: 10px;
+    }
+}
+
+@media(max-width:450px) {
+    .eachExp h1 {
+        padding-bottom: 146px;
+        font-size: 1em;
+    }
+
+    .eachExp .exp {
+        padding-bottom: 130px;
+    }
+
+    footer {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+}
+
+@media(max-width:440px) {
+    .eachExp h1 {
+        padding-bottom: 166px;
+    }
+}
+
+
+@media(max-width:399px) {
+    .section_down {
+        padding-top: 130px
+    }
+
+    .eachExp {
         padding-left: 10px;
     }
 }
 
-@media(max-width:490px){
-    .hero_sect{
+@media(max-width:390px) {
+    .infoimag img {
+        width: 150px;
+    }
+
+    .myinfo {
         display: block;
+        margin-left: 30px;
     }
-    .hero_image img{
-         padding-top: 2px;
-         padding-bottom: 100px;
-         width: 240px;
+
+    .about-me p {
+        max-width: 70ch;
     }
-    .hero_text span{
+
+    .eachExp h1 {
+        padding-bottom: 140px;
+    }
+
+    .experience h2 {
+        padding-left: 30px;
+        border-bottom: 20%;
+    }
+
+    .reserve {
         font-size: .9em;
     }
-    
+
+    .skills h2 {
+        padding-left: 2px;
+        font-size: 1.2em;
+    }
+
+    .imgSkl {
+        width: 30px;
+        height: 30px;
+    }
+
+    .experience h2 {
+        width: 280px;
+    }
+}
+
+@media(max-width:387px) {
+    .exp2 div {
+        padding-bottom: 10px;
+    }
+
+    .eachExp .exp {
+        padding-bottom: 110px;
+    }
+
+    .experience h2 {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:370px) {
+    .eachExp h1 {
+        padding-bottom: 150px;
+    }
+
+    .exp2 div {
+        padding-bottom: 20px;
+    }
+
+    footer div a img {
+        width: 24px;
+    }
+}
+
+@media(max-width:345px) {
+    .reserve span {
+        font-size: .7em;
+    }
+}
+
+@media(max-width:333px) {
+    .eachExp .exp {
+        padding-top: 40px;
+    }
+
+    footer {
+        padding-right: 10px;
+    }
 }
